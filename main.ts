@@ -1,31 +1,15 @@
-class Sweet {
-    color: string
-    constructor(name:string, startColor:string){
-        console.log("Hello" + name)
-        this.color = startColor
-    }
-    getcolor(){
-        console.log(this.color)
-    }
-}
-// let world = new Sweet("world", "green")
-// let basil = new Sweet("basil", "bright green")
-// basil.getcolor()
-// world.getcolor()
+import { MustHaveCoffee} from './src/coffee/getcoffee'
 
-// console.log(basil.color)
-
-class Basil extends Sweet {
-    constructor(name:string, startColor:string){
-        super(name, startColor)
+function f(input: boolean) {
+    let a = 100
+    if(input){
+        let b = a + 100
+        return b
     }
-    setNewColor(newColor:string){
-        this.color = newColor
-    }
+    return a
 }
 
-let basil3 = new Basil("basil", "brite green")
+console.log(f(true))
+console.log(f(false))
 
-basil3.getcolor()
-basil3.setNewColor("Red")
-basil3.getcolor()
+let coffee = new MustHaveCoffee()
