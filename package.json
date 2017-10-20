@@ -1,0 +1,33 @@
+{
+  "name": "tssetup",
+  "version": "1.0.0",
+  "description": "Learning Typescript, Webpack, npm",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "ts-loader": "^3.0.2",
+    "typescript": "^2.5.3",
+    "webpack": "^3.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "webpack --watch --optimize-minimize",
+    "server": "http-server -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kawalot/tryTypescript.git"
+  },
+  "keywords": [
+    "Learning",
+    "Typescript",
+    "npm",
+    "Webpack"
+  ],
+  "author": "Aleksandr Peshcherov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kawalot/tryTypescript/issues"
+  },
+  "homepage": "https://github.com/kawalot/tryTypescript#readme"
+}
